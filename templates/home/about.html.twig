@@ -1,0 +1,92 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+  <section class="section about-section gray-bg" id="about">
+            <div class="container">
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-lg-6">
+                        <div class="about-text go-to">
+                            <h3 class="dark-color">About Me</h3>
+                            <h6 class="theme-color lead">A Creative and application developer</h6>
+                            <p>I'm a 21yo student on la Manu, Amiens and I <mark>design and develop</mark> services for school or customers.</p>
+                            <div class="row about-list">
+                                <div class="col-md-6">
+                                    <div class="media">
+                                        <label>Birthday</label>
+                                        <p>28th Febrary 2001</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Age</label>
+                                        <p>21 Yr</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Residence</label>
+                                        <p>France</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Address</label>
+                                        <p>Amiens</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="media">
+                                        <label>E-mail</label>
+                                        <p>antoine.gaudry60@gmail.com</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Phone</label>
+                                        <p>0678233821</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Github</label>
+                                        <p><a href="https://github.com/Antoine-manu">Here</a></p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Linkdin</label>
+                                        <p><a href="https://www.linkedin.com/in/antoine-gaudry-8b24251b9/">Here</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-avatar">
+                            <img src="{{asset("img/fakker.png")}}" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="counter">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="500" data-speed="500">1</h6>
+                                <p class="m-0px font-w-600">Year gotten</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="150" data-speed="150">30</h6>
+                                <p class="m-0px font-w-600">Project Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="850" data-speed="850">10+</h6>
+                                <p class="m-0px font-w-600">Mastered technologies </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="190" data-speed="190">3</h6>
+                                <p class="m-0px font-w-600">Experience on real project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock %}
